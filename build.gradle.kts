@@ -5,8 +5,8 @@ plugins {
 }
 
 group = findProperty("pluginGroup") as String? ?: "com.kedo"
-version = findProperty("pluginVersion") as String? ?: "0.0.1"
-description = findProperty("pluginDescription") as String? ?: "A Hytale plugin template"
+version = findProperty("pluginVersion") as String? ?: "1.0.0"
+description = findProperty("pluginDescription") as String? ?: "A mod that improves sprinting mechanics in Hytale. Removes sprinting stamina drain and allows for smoother movement while sprinting."
 
 repositories {
     mavenLocal()
@@ -17,7 +17,7 @@ dependencies {
 
 
     // Hytale Server API (provided by server at runtime)
-    compileOnly(files("app/libs/HytaleServer.jar"))
+    compileOnly(files("src/libs/HytaleServer.jar"))
     
     // Common dependencies (will be bundled in JAR)
     implementation("com.google.code.gson:gson:2.10.1")

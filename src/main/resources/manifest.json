@@ -1,8 +1,8 @@
 {
   "Group": "kedo",
-  "Name": "ChangeMe",
-  "Version": "0.0.1",
-  "Description": "A Hytale plugin template",
+  "Name": "[kedo] BetterMovement",
+  "Version": "1.0.0",
+  "Description": "A mod that improves sprinting mechanics in Hytale. Removes sprinting stamina drain and allows for smoother movement while sprinting.",
   "Authors": [
     {
       "Name": "kedo",
@@ -11,7 +11,7 @@
     }
   ],
   "Website": "https://github.com/DovydasKelecius/Hytale-Mods",
-  "Main": "com.kedo.ChangeMe.app",
+  "Main": "com.kedo.BetterMovement.app",
   "ServerVersion": "*",
   "Dependencies": {},
   "OptionalDependencies": {},
