@@ -5,7 +5,7 @@ plugins {
 }
 
 group = findProperty("pluginGroup") as String? ?: "com.kedo"
-version = findProperty("pluginVersion") as String? ?: "1.0.0"
+version = findProperty("pluginVersion") as String? ?: "1.1.0"
 description = findProperty("pluginDescription") as String? ?: "A mod that improves sprinting mechanics in Hytale. Removes sprinting stamina drain and allows for smoother movement while sprinting."
 
 repositories {
