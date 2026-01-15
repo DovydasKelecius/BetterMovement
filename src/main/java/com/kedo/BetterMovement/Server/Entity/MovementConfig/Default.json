@@ -1,7 +1,7 @@
 {
   "VelocityResistance": 0.242,
   "JumpForce": 11.8,
-  "SwimJumpForce": 5,
+  "SwimJumpForce": 10,
   "JumpBufferDuration": 0.3,
   "JumpBufferMaxYVelocity": 3,
   "Acceleration": 0.1,
